@@ -1,1 +1,4 @@
-console.log("This is my console.log statement from /src/index.js HAHA!");
+import './style.css';
+import loadContent from "./load";
+
+window.addEventListener('load', loadContent);

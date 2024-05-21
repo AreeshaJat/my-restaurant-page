@@ -1,0 +1,52 @@
+body {
+    background-color: RGB(204, 119, 34);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+    margin-top: 2%;
+    border-bottom: 2px solid brown;
+}
+
+h5 {
+    font-size: 20px;
+    color: RGB(245, 245, 220);
+}
+
+.title {
+    text-align: center;
+    color: RGB(245, 245, 220);
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: RGB(220, 220, 220);
+    border-radius: 5px;
+    padding: 5px 5px;
+    color: black;
+    border: 1px solid RGB(220, 220, 220);
+}
+
+.paraImg {
+    color: RGB(245, 245, 220);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    width: 40%; 
+    margin-right: 5%;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
