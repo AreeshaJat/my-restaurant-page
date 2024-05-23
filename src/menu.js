@@ -6,10 +6,14 @@ import img6 from '../images/img6.png';
 import img7 from '../images/img7.png';
 
 function menuContent() {
-    console.log('Menu button clicked');
 
     const contentDiv = document.getElementById('content');
 
+    const menuTitle = document.createElement('h1');
+    menuTitle.textContent = "Welcome to Our Menu!";
+    contentDiv.appendChild(menuTitle);
+    menuTitle.style.color = 'white';
+    menuTitle.style.textAlign = 'center';
     class Menu {
         constructor(img, title, description, ingredients) {
             this.img = img;
