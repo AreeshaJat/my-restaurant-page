@@ -5,7 +5,7 @@ function loadContent() {
     let imgAndtextDiv = document.createElement("div");
     imgAndtextDiv.className = "paraImg";
     let newImage = new Image();
-    newImage.src = './images/img1.png';
+    newImage.src = '../images/img1.png';
     newImage.style.width = '35vw';
     newImage.style.height = '60vh';
     newImage.style.borderRadius = '50%';
