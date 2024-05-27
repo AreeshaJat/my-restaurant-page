@@ -24,5 +24,5 @@ The restuarant page mimics a fake mexican restuarant page called "El Alma del Sa
 9. Explore the dist folder to see the index.html page generated after you run npx webpack.
 
 ## Viewing the Webpage
-To view the completed webpage, follow this link: [Live Demo](https://areeshajat.github.io/restaurant-page/)
+To view the completed webpage, follow this link: [Live Demo](https://areeshajat.github.io/my-restaurant-page/)
 

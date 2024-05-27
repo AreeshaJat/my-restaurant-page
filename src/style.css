@@ -39,24 +39,15 @@ button.active {
     background-color: RGB(150, 150, 150);
 }
 
-.paraImg {
-    color: RGB(245, 245, 220);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 5%;
-}
-
-.rightSide {
-    display: flex;
-    flex-direction: column;
-    width: 40%; 
-    margin-right: 5%;
+h1 {
+    margin: 5%;
 }
 
 p {
     font-size: 20px;
     text-align: center;
+    margin: 5%;
+    color: RGB(245, 245, 220);
 }
 
 /*menu*/
