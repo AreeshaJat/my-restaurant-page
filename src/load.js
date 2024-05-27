@@ -1,3 +1,4 @@
+import img1 from '../images/img1.png';
 function loadContent() {
 
     const contentDiv = document.getElementById('content');
@@ -5,7 +6,7 @@ function loadContent() {
     let imgAndtextDiv = document.createElement("div");
     imgAndtextDiv.className = "paraImg";
     let newImage = new Image();
-    newImage.src = '../images/img1.png';
+    newImage.src = 'img1';
     newImage.style.width = '35vw';
     newImage.style.height = '60vh';
     newImage.style.borderRadius = '50%';
