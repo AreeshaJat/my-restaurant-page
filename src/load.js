@@ -1,4 +1,3 @@
-import img1 from '../images/img1.png';
 function loadContent() {
 
     const contentDiv = document.getElementById('content');
